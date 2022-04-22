@@ -1,0 +1,19 @@
+.playlistData {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.playlistItem {
+    flex-basis: 20%;
+    margin: 20px 5px;
+    background-color: #eeeeee;
+    border: 1px solid #6fb2d2;
+}
+
+.btnData {
+    display: flex;
+    align-items: center;
+}

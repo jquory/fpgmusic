@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* button */
+.btn {
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.bg-secondary {
+  width: 100%;
+  align-self: end;
+  margin-top: 8px;
+  background-color: #488fb1;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 12px;
+}
+
+.bg-secondary1 {
+  width: 18%;
+  background-color: #488fb1;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 12px;
+  margin-left: 20px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin-top: 240px;
+}
+
+.bg-secondary {
+  background-color: #488fb1;
+}
+
+.bg-secondary.btn:hover {
+  background-color: #6fb2d2;
+}
+
+/* Akhir button */
+
+/*Search */
+.container {
+  padding: 15px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.container input[type=text] {
+  width: 60%;
+  padding: 10px;
+}
+
+.container button {
+  padding: 12px 15px;
+  background-color: #6fb2d2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Akhir Search */
+
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-top: 18px;
+}
+
+.input-group input {
+  margin-top: 10px;
+  padding: 17px 10px;
+  border-radius: 5px;
+  font-size: 12pt;
+  font-family: sans-serif;
+  border: 1px solid #b7cadb;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 50%;
+}

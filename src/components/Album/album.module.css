@@ -1,0 +1,43 @@
+.container {
+    width: 230px;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #6fb2d2;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+
+.imgAlbum img {
+    border-radius: 6px 6px 0px 0px;
+    width: 100%;
+}
+
+.albumTitle {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.artistName {
+    font-size: 15px;
+    margin: 0;
+    padding: 8px 0;
+}
+
+
+.btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    align-self: end;
+    background-color: #488fb1;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
