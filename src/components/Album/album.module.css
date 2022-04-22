@@ -3,10 +3,13 @@
     height: 100%;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #6fb2d2;
+    border: 1px solid lightgray;
     border-radius: 6px;
     cursor: pointer;
-    background-color: #eeeeee;
+}
+.container:hover {
+
+    border: 1px solid #000;
 }
 
 .imgAlbum img {
@@ -36,7 +39,7 @@
     cursor: pointer;
     padding: 12px 20px;
     align-self: end;
-    background-color: #488fb1;
+    background-color: black;
     color: white;
     font-weight: bold;
     border-radius: 10px;

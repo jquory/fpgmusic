@@ -140,14 +140,14 @@ function CreatePlaylist({ selected }) {
         </div>
 
       </div>
-      <div className="playlist">
+      <div className={Style.playlist}>
         <div className="title">
           <h1>Create playlist</h1>
         </div>
         <div className="form">
           <form id="submit-playlist" onSubmit={handleFormSubmit}>
             <div className="input-group">
-              <label id="namePlaylist">Name:</label>
+              <label id="namePlaylist">Playlist name</label>
               <input
                 id="namePlaylist"
                 required
@@ -161,7 +161,7 @@ function CreatePlaylist({ selected }) {
               )}
             </div>
             <div className="input-group">
-              <label id="descPlaylist">Description:</label>
+              <label id="descPlaylist">Description</label>
               <input
                 id="descPlaylist"
                 rows="4"
@@ -172,7 +172,7 @@ function CreatePlaylist({ selected }) {
               />
             </div>
             <button
-              className="btn btn-secondary"
+              className={Style.btn}
               variant="primary"
               type="submit"
             >

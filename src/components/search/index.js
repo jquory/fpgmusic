@@ -1,8 +1,8 @@
-// import { render } from "@testing-library/react";
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import Album from '../Album';
 import CreatePlaylist from '../createPlaylist';
+import Style from './search.module.css';
 
 function SearchBar() {
   const [search, setSearch] = useState('');
@@ -50,7 +50,7 @@ function SearchBar() {
             value={search}
             onChange={handleChange}
           />
-          <button className="button" type="button" onClick={handleSubmit}>
+          <button className={Style.btn} type="button" onClick={handleSubmit}>
             Search
           </button>
         </form>
