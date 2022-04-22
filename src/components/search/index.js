@@ -65,9 +65,6 @@ function SearchBar() {
       </div>
       <div className="card-playlist">
         <div className="title" />
-        {/* <Button variant="primary">
-          Add to playlist
-        </Button> */}
       </div>
       <CreatePlaylist accessToken={accessToken} selected={selected} />
 

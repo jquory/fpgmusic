@@ -17,7 +17,7 @@ function Login() {
 
   const handleLogin = () => {
     window.location.replace(
-      `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=https://pgigihmusic.vercel.app&scope=user-read-email playlist-modify-private playlist-read-private`,
+      `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=https://fpgigihmusic.vercel.app&scope=user-read-email playlist-modify-private playlist-read-private`,
     );
   };
 
